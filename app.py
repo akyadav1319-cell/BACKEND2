@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 import google.generativeai as genai
 
 # Import core engine
-from core.engine import PolicyEngine
+from backend.core.engine import PolicyEngine
 
 # Load environment variables
 load_dotenv()
@@ -258,3 +258,4 @@ if __name__ == '__main__':
         debug=True
 
     )
+
