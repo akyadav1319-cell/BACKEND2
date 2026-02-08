@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 import google.generativeai as genai
 
 # Import core engine
-from backend.core.engine import PolicyEngine
+from core.engine import PolicyEngine
 
 # Load environment variables
 load_dotenv()
@@ -256,4 +256,5 @@ if __name__ == '__main__':
         host='0.0.0.0',
         port=5000,
         debug=True
+
     )
